@@ -3286,7 +3286,7 @@ a:focus:active {
 	display: -ms-flexbox;
 	display: flex;
 	height: 0;
-	padding-top: 32%;
+	padding-top: 42%;
 	overflow: hidden;
 	margin: 0 0 16px;
 }
@@ -3299,6 +3299,49 @@ a:focus:active {
 	    -ms-transform: translateX( -50% ) translateY( -50% );
 	        transform: translateX( -50% ) translateY( -50% );
 	max-width: 100%;
+}
+
+.news__relatedtitle {
+	text-transform: uppercase;
+	font-family: "OpenSansSemiBold", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	color: #0e0e0e;
+
+	margin: 0 0 12px;
+}
+
+.news__relatedmetaWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.news__relatedmetaWrap>div {
+	font-family: "OpenSansLight", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	color: #020202;
+	margin: 0 22px 0 0;
+}
+
+.news__relateddate {
+	padding: 0 0 0 24px;
+	background: url(../images/clock-yellow.png) no-repeat 0 2px;
+	-webkit-background-size: 16px 16px;
+	background-size: 16px 16px;
+}
+
+.news__relatedcategory {
+	padding: 0 0 0 24px;
+	background: url(../images/file-yellow.png) no-repeat 0 2px;
+	-webkit-background-size: 12px 14px;
+	background-size: 12px 14px;
 }
 
 .news__catLink {
