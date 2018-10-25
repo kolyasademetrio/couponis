@@ -1274,6 +1274,7 @@ a:focus:active {
 	color: #000101;
 	text-transform: uppercase;
 	background-color: #ffdc2c;
+	border: 0 none;
 }
 
 .button__height__60 {
@@ -2547,7 +2548,8 @@ a:focus:active {
 }
 
 .mfp-content .log-in-dropdown input[type="text"],
-.mfp-content .log-in-dropdown input[type="password"] {
+.mfp-content .log-in-dropdown input[type="password"],
+.buycoupons__formWrap .form-details-group>.form-group .form-control {
 	width: 100%;
 	border: 2px solid #d3d3d3;
 	border-radius: 30px;
@@ -2559,6 +2561,18 @@ a:focus:active {
 	font-style: normal;
 	font-size: .6rem;
 	color: #020202;
+}
+
+.buycoupons__formWrap .form-details-group>.form-group .form-control:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.buycoupons__formWrap .form-details-group>.form-group .form-control {
+	padding-left: 30px;
+	margin-bottom: 0;
+	height: auto;
 }
 
 .mfp-content .log-in-dropdown input#email {
@@ -3088,7 +3102,9 @@ a:focus:active {
 
 
 @media ( min-width: 768px ) {
-	.news__page .mainScreen {
+	.news__page .mainScreen,
+	.buycoupons__page .mainScreen,
+	.couponing__page .mainScreen {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -3097,7 +3113,9 @@ a:focus:active {
 		align-items: center;
 	}
 
-	.news__page .mainScreen__internalPages-title {
+	.news__page .mainScreen__internalPages-title,
+	.buycoupons__page .mainScreen__internalPages-title,
+	.couponing__page .mainScreen__internalPages-title {
 		margin-top: -60px;
 	}
 }
@@ -3727,6 +3745,316 @@ a:focus:active {
 /* ---------------------------------------------------------------------------------------------------- */
 
 
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> buycoupons <<<------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.buycoupons__page .mainScreen {
+	background: url(../images/buycoupons/buycoupons-bg.png) no-repeat center bottom;
+}
+
+.buycoupons__title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "OpenSansSemiBold", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1rem;
+	color: #020202;
+	margin: 0 0 2rem;
+}
+
+.buycoupons__formWrap {
+	padding: 0 0 100px;
+}
+
+.buycoupons__formWrap .form-details-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+
+	margin: 0 0 10px;
+}
+
+.buycoupons__formWrap .form-details-group>.form-group {
+	-ms-flex-preferred-size: 32%;
+	             flex-basis: 32%;
+	margin: 0 0 1rem;
+}
+
+.buycoupons__formWrap .form-details-group>.form-group-invitation-code {
+	-ms-flex-preferred-size: 100%;
+	             flex-basis: 100%;
+}
+
+/* --- checkboxes ------- */
+.form-checkboxes-group {
+	margin: 0 0 60px;
+}
+
+.form-group .checkbox {
+	position: relative;
+	overflow: hidden;
+	margin: 0 0 30px;
+}
+
+.form-group .checkbox .checkbox-custom {
+	display: block;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	border: 2px solid #d2d2d2;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.form-group .checkbox input[type="checkbox"] {
+	position: absolute;
+	left: 13px;
+	top: 13px;
+	margin: 0;
+	opacity: 0;
+}
+
+.form-group .checkbox input[type="checkbox"]:checked+.checkbox-custom {
+	background: url(../images/checked-yellow.png) no-repeat center center;
+	-webkit-background-size: 18px 14p;
+	background-size: 18px 14px;
+}
+
+.form-group .checkbox label,
+.form-group .checkbox label a {
+	font-family: "OpenSansRegular", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: #020202;
+}
+
+.form-group .checkbox label {
+	padding: 2px 0 0 57px;
+	height: auto;
+	min-height: 37px;
+	line-height: 2;
+}
+
+.form-group .checkbox label a {
+	font-weight: 700;
+}
+/* --- checkboxes End --- */
+
+.buycoupons__formWrap .form-buttons-group {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+
+	-webkit-box-pack: center;
+	   -ms-flex-pack: center;
+	 justify-content: center;
+
+	margin: 0 0 30px;
+}
+
+.buycoupons__formWrap .form-buttons-group button {
+	margin: 0 8px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> buycoupons End <<<------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> couponing <<<------------------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------- */
+.couponing__page .mainScreen {
+	background: url(../images/couponing/couponing-bg.png) no-repeat center bottom;
+}
+
+.couponing__listVideo {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	padding: 0 0 1rem;
+}
+
+.couponing__listWrap,
+.couponingVideoWrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-preferred-size: 49%;
+	             flex-basis: 49%;
+}
+
+.couponing__listWrap {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.couponing__listWrap .mainScreen__homeBuyInner {
+	padding: 3.83% 3.83% 3.83% 6.39%;
+	border: 4px solid #ffe045;
+	width: 100%;
+}
+
+
+.couponing__listWrap .mainScreen__homeBuyTitle {
+	color: #0e0e0e;
+}
+
+.couponing__listWrap .mainScreen__homeBuyListItem {
+	color: #161616;
+}
+
+.couponingVideoInner {
+	padding: 50% 0 0;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.couponingVideoInner iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.couponing__whatIs {
+	padding: 1rem 0 1rem;
+}
+
+.couponing__section,
+.couponing__section a {
+	font-family: "OpenSansLight", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	color: #020202;
+	line-height: 2;
+}
+
+.couponing__sectionTitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "OpenSansSemiBold", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1rem;
+	line-height: 1.3;
+	color: #020202;
+	margin: 0 0 1.5625%;
+}
+
+.couponing__section {
+	padding: 1.875% 0;
+}
+
+.couponing__whatIsItems {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.couponing__whatIsItem {
+	-ms-flex-preferred-size: 49%;
+	             flex-basis: 49%;
+}
+
+.couponing__calcMethodContent {
+	text-align: center;
+}
+
+.couponing__rulesInfoWrap {
+	text-align: center;
+}
+
+.couponing__rulesInfo,
+.couponing__rulesList {
+	margin: 0 0 2.625%;
+}
+
+.couponing__rulesList {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.couponing__rulesItem {
+	-ms-flex-preferred-size: 49%;
+	             flex-basis: 49%;
+}
+
+.couponing__exchangeItems {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	       display: flex;
+	
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.couponing__exchangeItem {
+	-ms-flex-preferred-size: 32%;
+	             flex-basis: 32%;
+
+	text-align: center;
+	border: 4px solid #ffe045;
+}
+
+.couponing__exchangeItemInner {
+	padding: 11% 2% 14.5%;
+}
+
+.couponing__exchangeItemInner img {
+	margin: 0 0 6%;
+}
+
+.couponing__exchangeItemInner div {
+	font-family: "OpenSansSemiBold", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .8rem;
+	text-transform: uppercase;
+	line-height: 1.2;
+
+	margin: 0 0 6%;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> couponing End <<<-------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
 
 
 

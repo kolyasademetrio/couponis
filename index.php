@@ -41,6 +41,8 @@ $pages = Array(
     'suninvestment'  => 'suninvestment__page',
     'news'  => 'news__page',
     'bitcoinmining'  => 'bitcoinmining__page',
+    'buycoupons'  => 'buycoupons__page',
+    'couponing'  => 'couponing__page',
 
 );
 ?>

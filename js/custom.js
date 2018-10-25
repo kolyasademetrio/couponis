@@ -146,7 +146,7 @@ jQuery(document).ready(function($){
 				$preloader_bg.delay(500).fadeOut('slow');
 				$('body').removeClass('ov-hidden');
 			}
-pre		});
+		});
 	})();
 	/* ------------------------>>> preloader End <<<------------------------------------------------- */
 
