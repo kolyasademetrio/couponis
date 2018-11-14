@@ -24,49 +24,63 @@
                     <ul class="news__newsList">
 
                         <li class="news__newsItem">
-                            <a href="" class="news__imgWrap">
-                                <img src="images/news/1.jpg" alt="" class="news__img">
-                            </a>
-                            <a href="" class="news__title">Ankündigung Top Veranstaltung!</a>
-                            <div class="news__metaWrap">
-                                <div class="news__date">05 Sep 2018</div>
-                                <div class="news__category">Live Meetings</div>
-                            </div>
-                            <div class="news__excerpt">Hallo liebe Couponier, wie ich schon immer sag  te, dass wir wahrscheinlich die besten Mining Angebote haben, dass hat sich
-                                heute wieder mal bestätigt. Heute habe ich beim wohl...</div>
-                            <div class="news__btnWrap">
-                                <a href="" class="news__readMore button__yellow_50">Read more</a>
-                            </div>
-                        </li>
-
-                        <li class="news__newsItem">
-                            <a href="" class="news__imgWrap">
-                                <img src="images/news/2.jpg" alt="" class="news__img">
-                            </a>
-                            <a href="" class="news__title">Gecknackt!</a>
-                            <div class="news__metaWrap">
-                                <div class="news__date">05 Sep 2018</div>
-                                <div class="news__category">Live Meetings</div>
-                            </div>
-                            <div class="news__excerpt">Seit 4 Monate sind wir nun Online und Heute war es nun soweit! User Peter Mc Coin hat das tägliche Maximum
-                                von 5 Coupons geknackt! Wann knackt es bei Dir?-)</div>
-                            <div class="news__btnWrap">
-                                <a href="" class="news__readMore button__yellow_50">Read more</a>
+                            <div class="news__newsItemInner">
+                                <a href="" class="news__imgWrap">
+                                    <img src="images/news/1.jpg" alt="" class="news__img">
+                                </a>
+                                <a href="" class="news__title">Ankündigung Top Veranstaltung!</a>
+                                <div class="news__metaWrap">
+                                    <div class="news__date">05 Sep 2018</div>
+                                    <div class="news__category">Live Meetings</div>
+                                </div>
+                                <div class="news__excerpt">Hallo liebe Couponier, wie ich schon immer sag te, dass wir
+                                    wahrscheinlich die besten Mining Angebote haben, dass hat sich
+                                    heute wieder mal bestätigt. Heute habe ich beim wohl...
+                                </div>
+                                <div class="news__btnWrap">
+                                    <a href="" class="news__readMore button__yellow_50">Read more</a>
+                                </div>
                             </div>
                         </li>
 
                         <li class="news__newsItem">
-                            <a href="" class="news__imgWrap">
-                                <img src="images/news/3.jpg" alt="" class="news__img">
-                            </a>
-                            <a href="" class="news__title">August News</a>
-                            <div class="news__metaWrap">
-                                <div class="news__date">05 Sep 2018</div>
-                                <div class="news__category">Live Meetings</div>
+                            <div class="news__newsItemInner">
+                                <a href="" class="news__imgWrap">
+                                    <img src="images/news/2.jpg" alt="" class="news__img">
+                                </a>
+                                <a href="" class="news__title">Gecknackt!</a>
+                                <div class="news__metaWrap">
+                                    <div class="news__date">05 Sep 2018</div>
+                                    <div class="news__category">Live Meetings</div>
+                                </div>
+                                <div class="news__excerpt">Seit 4 Monate sind wir nun Online und Heute war es nun
+                                    soweit!
+                                    User Peter Mc Coin hat das tägliche Maximum
+                                    von 5 Coupons geknackt! Wann knackt es bei Dir?-)
+                                </div>
+                                <div class="news__btnWrap">
+                                    <a href="" class="news__readMore button__yellow_50">Read more</a>
+                                </div>
                             </div>
-                            <div class="news__excerpt">Liebe CouponisfreundeInnen! Es hat sich wieder einiges getan! Neue Softwarefirma: Wir haben den Wechsel zu einen neuem, kompetenteren Softwareteam vollzogen.Eine Firma...</div>
-                            <div class="news__btnWrap">
-                                <a href="" class="news__readMore button__yellow_50">Read more</a>
+                        </li>
+
+                        <li class="news__newsItem">
+                            <div class="news__newsItemInner">
+                                <a href="" class="news__imgWrap">
+                                    <img src="images/news/3.jpg" alt="" class="news__img">
+                                </a>
+                                <a href="" class="news__title">August News</a>
+                                <div class="news__metaWrap">
+                                    <div class="news__date">05 Sep 2018</div>
+                                    <div class="news__category">Live Meetings</div>
+                                </div>
+                                <div class="news__excerpt">Liebe CouponisfreundeInnen! Es hat sich wieder einiges getan!
+                                    Neue Softwarefirma: Wir haben den Wechsel zu einen neuem, kompetenteren Softwareteam
+                                    vollzogen.Eine Firma...
+                                </div>
+                                <div class="news__btnWrap">
+                                    <a href="" class="news__readMore button__yellow_50">Read more</a>
+                                </div>
                             </div>
                         </li>
 
@@ -101,9 +115,9 @@
                         <ul class="news__relatedList">
                             <li class="news__relatedListItem">
                                 <a href="" class="news__relatedimgWrap">
-                                    <img src="images/news/2.jpg" alt="" class="news__relatedimg">
+                                    <img src="images/news/related/1.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">Gecknackt!</a>
+                                <a href="" class="news__relatedtitle">Ankündigung Top Veranstaltung!</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>
@@ -112,9 +126,42 @@
 
                             <li class="news__relatedListItem">
                                 <a href="" class="news__relatedimgWrap">
-                                    <img src="images/news/2.jpg" alt="" class="news__relatedimg">
+                                    <img src="images/news/related/2.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">Gecknackt!</a>
+                                <a href="" class="news__relatedtitle">Erklärung - Sonnenbeteiligung</a>
+                                <div class="news__relatedmetaWrap">
+                                    <div class="news__relateddate">05 Sep 2018</div>
+                                    <div class="news__relatedcategory">Live Meetings</div>
+                                </div>
+                            </li>
+
+                            <li class="news__relatedListItem">
+                                <a href="" class="news__relatedimgWrap">
+                                    <img src="images/news/related/3.jpg" alt="" class="news__relatedimg">
+                                </a>
+                                <a href="" class="news__relatedtitle">Juli News</a>
+                                <div class="news__relatedmetaWrap">
+                                    <div class="news__relateddate">05 Sep 2018</div>
+                                    <div class="news__relatedcategory">Live Meetings</div>
+                                </div>
+                            </li>
+
+                            <li class="news__relatedListItem">
+                                <a href="" class="news__relatedimgWrap">
+                                    <img src="images/news/related/4.jpg" alt="" class="news__relatedimg">
+                                </a>
+                                <a href="" class="news__relatedtitle">Unser Angebot versus Mitbewerber</a>
+                                <div class="news__relatedmetaWrap">
+                                    <div class="news__relateddate">05 Sep 2018</div>
+                                    <div class="news__relatedcategory">Live Meetings</div>
+                                </div>
+                            </li>
+
+                            <li class="news__relatedListItem">
+                                <a href="" class="news__relatedimgWrap">
+                                    <img src="images/news/related/5.jpg" alt="" class="news__relatedimg">
+                                </a>
+                                <a href="" class="news__relatedtitle">News Mai</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>

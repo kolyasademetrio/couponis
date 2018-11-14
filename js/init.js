@@ -185,8 +185,8 @@ jQuery(document).ready(function($){
         fixedContentPos: true,
         callbacks: {
             open: function() {
-                var elemTop = $('.hamburger').offset().top - $(window).scrollTop();
-                
+                var elemTop = ( $(window).width() >= 500 ) ? $('.hamburger').offset().top - $(window).scrollTop() : '20px';
+
                 $('.headerBottom__menuWrap').css({
                     'margin-top': elemTop,
                 });

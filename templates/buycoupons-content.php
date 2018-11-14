@@ -63,21 +63,21 @@
                                         <div class="checkbox">
                                             <input type="checkbox" id="policy1" name="policy1" value="2">
                                             <span class="checkbox-custom"></span>
-                                            <label for="policy1" class="terms_label">Mit meinem Kauf akzeptiere ich die <a href="#">AGB und Vertragsbedingungen</a> & Ich habe die <a href="#">Widerrufserklärung</a> gelesen und verstanden.</label>
+                                            <label for="policy1" class="terms_label">Mit meinem Kauf akzeptiere ich die <a target="_blank" href="#">AGB und Vertragsbedingungen</a> & Ich habe die <a href="#">Widerrufserklärung</a> gelesen und verstanden.</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="checkbox">
                                             <input type="checkbox" id="policy2" name="policy2" value="3">
                                             <span class="checkbox-custom"></span>
-                                            <label for="policy2" class="terms_label">Ich habe die <a href="#">Datenschutzerklärung</a> gelesen und verstanden.</label>
+                                            <label for="policy2" class="terms_label">Ich habe die <a target="_blank" href="#">Datenschutzerklärung</a> gelesen und verstanden.</label>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <div class="checkbox">
                                             <input type="checkbox" id="policy3" name="policy3" value="3">
                                             <span class="checkbox-custom"></span>
-                                            <label for="policy3" class="terms_label">Ja, ich möchte den kostenlosen MC Capital Newsletter zugesendet bekommen. <a href="#">Die Einwilligung kann jederzeit widerrufen werden. Details zur Datenverarbeitung durch die MC Capital GmbH findest du in unserer Datenschutzerklärung.</a></label>
+                                            <label for="policy3" class="terms_label">Ja, ich möchte den kostenlosen MC Capital Newsletter zugesendet bekommen. <a target="_blank" href="#">Die Einwilligung kann jederzeit widerrufen werden. Details zur Datenverarbeitung durch die MC Capital GmbH findest du in unserer Datenschutzerklärung.</a></label>
                                         </div>
                                     </div>
                                 </div>
