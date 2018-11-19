@@ -29,7 +29,7 @@ if ($handle = opendir($dir)) {
 
     $allpages = array_keys($pages);
 
-    if ( array_equal( $files, $allpages ) ){
+//    if ( array_equal( $files, $allpages ) ){
         ?>
         <script>
             var slags = <?php echo json_encode($allpages) ?>;
@@ -146,7 +146,7 @@ if ($handle = opendir($dir)) {
             })();
         </script>
         <?php
-    }
+    /*}*/
 }
 ?>
 <!-- Этот скрипт на проде и тесте НЕ НУЖЕН (используется ТОЛЬКО для верстки) End -->

@@ -1,4 +1,5 @@
-<div class="mainScreen">
+<div class="mainScreen" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+     xmlns="http://www.w3.org/1999/html">
     <div class="container mainScreen__container">
         <div class="row mainScreen__row">
             <div class="col-xs-12 mainScreen__col">
@@ -9,10 +10,17 @@
                                 <div class="mainScreen__homeBuyTitle">Die Vorteile auf einen Blick</div>
                                 <ul class="mainScreen__homeBuyList">
                                     <li class="mainScreen__homeBuyListItem">Auszahlungen ab dem ersten Tag!</li>
-                                    <li class="mainScreen__homeBuyListItem">Bereits über 1000 zufriedene Kunden! <a href="#">(mc-capital.eu )</a></li>
-                                    <li class="mainScreen__homeBuyListItem">Langjährige Erfahrung im Bereich Sonnenbeteiligung!</li>
-                                    <li class="mainScreen__homeBuyListItem">Bereits ab kleinen Beträgen, an diesem Boom partizipieren!</li>
-                                    <li class="mainScreen__homeBuyListItem">Bekomme bis zu täglich GRATIS COUPONS, durch unser Weiterempfehlungssystem!</li>
+                                    <li class="mainScreen__homeBuyListItem">Bereits über 1000 zufriedene Kunden! <a
+                                            href="#">(mc-capital.eu )</a></li>
+                                    <li class="mainScreen__homeBuyListItem">Langjährige Erfahrung im Bereich
+                                        Sonnenbeteiligung!
+                                    </li>
+                                    <li class="mainScreen__homeBuyListItem">Bereits ab kleinen Beträgen, an diesem Boom
+                                        partizipieren!
+                                    </li>
+                                    <li class="mainScreen__homeBuyListItem">Bekomme bis zu täglich GRATIS COUPONS, durch
+                                        unser Weiterempfehlungssystem!
+                                    </li>
                                 </ul>
                                 <div class="mainScreen__homeBuyBtnWrap">
                                     <a href="#" class="mainScreen__homeBuyLink button__yellow_50">Jetzt kaufen</a>
@@ -30,10 +38,13 @@
                                     <img src="images/sun.png" alt="" class="mainScreen__img">
                                 </div>
                                 <div class="mainScreen__itemContent">
-                                    <div class="mainScreen__itemTitle">SONNENBETEILIGUNG</div>
-                                    <div class="mainScreen__itemDescr">Löse deine Coupons gegen Paneele ein.Und erhalte monatlich 6.75 Euro an Miete pro Paneel. „Deine lebenslange Stromrente!“</div>
+                                    <div class="mainScreen__itemTitle">Hol dir deine "lebenslange Stromrente"</div>
+                                    <div class="mainScreen__itemDescr">Löse eine Teil deiner Coupons in einer
+                                        langfristigen Sonnenkraftbeteiligung ein. (Grüner) Strom wird immer gebraucht
+                                        und verbraucht, warum nicht daran mit verdienen!
+                                    </div>
                                     <div class="mainScreen__itemBtnWrap">
-                                        <a href="#" class="mainScreen__itemLink" target="_blank">Coupon</a>
+                                        <a href="/?p=suninvestment" class="mainScreen__itemLink">Mehr dazu</a>
                                     </div>
                                 </div>
                             </div>
@@ -42,23 +53,45 @@
                                     <img src="images/beta.png" alt="" class="mainScreen__img">
                                 </div>
                                 <div class="mainScreen__itemContent">
-                                    <div class="mainScreen__itemTitle">Mining</div>
-                                    <div class="mainScreen__itemDescr">Löse deine Coupons gegen Paneele ein. Und erhalte monatlich 6.75 Euro an Miete pro Paneel. „Deine lebenslange Stromrente!“</div>
+                                    <div class="mainScreen__itemTitle">Hol dir täglich Cryptocoins</div>
+                                    <div class="mainScreen__itemDescr">Löse einen kleinen Teil deiner Coupons gegen
+                                        Miner oder andere innovative Cryptoprodukte ein. Partizipiere an diesen
+                                        Zukunftstechnologien mit und bekomme täglich deine Coins
+                                    </div>
                                     <div class="mainScreen__itemBtnWrap">
-                                        <a href="#" class="mainScreen__itemLink" target="_blank">Coupon</a>
+                                        <a href="/?p=bitcoinmining" class="mainScreen__itemLink">Mehr dazu</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="mainScreen__item">
                                 <div class="mainScreen__imgWrap">
                                     <img src="images/car.png" alt="" class="mainScreen__img">
-                                    <div class="mainScreen__itemInfo">Speziellen</div>
+                                    <div class="mainScreen__itemInfo">Star Product</div>
                                 </div>
                                 <div class="mainScreen__itemContent">
                                     <div class="mainScreen__itemTitle">Traumauto zum mieten</div>
-                                    <div class="mainScreen__itemDescr">Löse deine Coupons gegen Paneele ein. Und erhalte monatlich 6.75 Euro an Miete pro Paneel. „Deine lebenslange Stromrente!“</div>
+                                    <div class="mainScreen__itemDescr">
+                                        Löse deine Coupons gegen spezielle Starprodukte ein:
+                                        </br></br>
+                                        <div class="mainScreen__itemList">
+                                            <div class="mainScreen__itemListTitle">Zb:</div>
+                                            <div class="mainScreen__itemListList">Einkaufsgutscheine (Handel und
+                                                Dienstleistung)</br>
+                                                Eigene Photovoltaikanlage</br>
+                                                Eigene Cryptominer</br>
+                                                Einmalige Aktionen wie ein Tophandy oder Laptop
+                                            </div>
+                                        </div>
+                                        <div class="mainScreen__itemList">
+                                            <div class="mainScreen__itemListTitle">Ab Star 2 Level:</div>
+                                            <div class="mainScreen__itemListList">Gegen ein Eigenheim oder einen
+                                                Neuwagen (nur Tanken)
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="mainScreen__itemBtnWrap">
-                                        <a href="#" class="mainScreen__itemLink" target="_blank">Coupon</a>
+                                        <a href="#" class="mainScreen__itemLink">Mehr dazu</a>
+                                        <!-- to Starproducts side -->
                                     </div>
                                 </div>
                             </div>
@@ -82,7 +115,12 @@
                                 <img src="images/user-slider.png" alt="" class="reviewSlider__img">
                             </div>
                             <div class="reviewSlider__userName">Lousia Hasse</div>
-                            <div class="reviewSlider__userReview">Liebe Couponis , lieber Peter Aldrian,gerne schicke ich dir einige meiner Erfahrungen von euch. Vorweg kann ich sagen, dass ich wohl noch keine andere Sparform gehabt habe, wo ich so gute und regelmäßige Zinsen bekomme.Und das seit über 2 Jahren.Zusätzlich habe ich auch noch die tolle PV Anlage von euch seit vorigem Jahr. Und ich hoffe, dass ich auch die beantragte Förderung für Batterie-Speicherung erhalte.
+                            <div class="reviewSlider__userReview">Liebe Couponis , lieber Peter Aldrian,gerne schicke
+                                ich dir einige meiner Erfahrungen von euch. Vorweg kann ich sagen, dass ich wohl noch
+                                keine andere Sparform gehabt habe, wo ich so gute und regelmäßige Zinsen bekomme.Und das
+                                seit über 2 Jahren.Zusätzlich habe ich auch noch die tolle PV Anlage von euch seit
+                                vorigem Jahr. Und ich hoffe, dass ich auch die beantragte Förderung für
+                                Batterie-Speicherung erhalte.
                             </div>
                         </li>
                         <li class="reviewSlider__slide">
@@ -90,7 +128,12 @@
                                 <img src="images/user-slider.png" alt="" class="reviewSlider__img">
                             </div>
                             <div class="reviewSlider__userName">Lousia Hasse</div>
-                            <div class="reviewSlider__userReview">Liebe Couponis , lieber Peter Aldrian,gerne schicke ich dir einige meiner Erfahrungen von euch. Vorweg kann ich sagen, dass ich wohl noch keine andere Sparform gehabt habe, wo ich so gute und regelmäßige Zinsen bekomme.Und das seit über 2 Jahren.Zusätzlich habe ich auch noch die tolle PV Anlage von euch seit vorigem Jahr. Und ich hoffe, dass ich auch die beantragte Förderung für Batterie-Speicherung erhalte.
+                            <div class="reviewSlider__userReview">Liebe Couponis , lieber Peter Aldrian,gerne schicke
+                                ich dir einige meiner Erfahrungen von euch. Vorweg kann ich sagen, dass ich wohl noch
+                                keine andere Sparform gehabt habe, wo ich so gute und regelmäßige Zinsen bekomme.Und das
+                                seit über 2 Jahren.Zusätzlich habe ich auch noch die tolle PV Anlage von euch seit
+                                vorigem Jahr. Und ich hoffe, dass ich auch die beantragte Förderung für
+                                Batterie-Speicherung erhalte.
                             </div>
                         </li>
                         <li class="reviewSlider__slide">
@@ -98,7 +141,12 @@
                                 <img src="images/user-slider.png" alt="" class="reviewSlider__img">
                             </div>
                             <div class="reviewSlider__userName">Lousia Hasse</div>
-                            <div class="reviewSlider__userReview">Liebe Couponis , lieber Peter Aldrian,gerne schicke ich dir einige meiner Erfahrungen von euch. Vorweg kann ich sagen, dass ich wohl noch keine andere Sparform gehabt habe, wo ich so gute und regelmäßige Zinsen bekomme.Und das seit über 2 Jahren.Zusätzlich habe ich auch noch die tolle PV Anlage von euch seit vorigem Jahr. Und ich hoffe, dass ich auch die beantragte Förderung für Batterie-Speicherung erhalte.
+                            <div class="reviewSlider__userReview">Liebe Couponis , lieber Peter Aldrian,gerne schicke
+                                ich dir einige meiner Erfahrungen von euch. Vorweg kann ich sagen, dass ich wohl noch
+                                keine andere Sparform gehabt habe, wo ich so gute und regelmäßige Zinsen bekomme.Und das
+                                seit über 2 Jahren.Zusätzlich habe ich auch noch die tolle PV Anlage von euch seit
+                                vorigem Jahr. Und ich hoffe, dass ich auch die beantragte Förderung für
+                                Batterie-Speicherung erhalte.
                             </div>
                         </li>
                     </ul>
@@ -119,7 +167,11 @@
                                 <img src="images/sun-info.png" alt="" class="mainInfo__infoImg">
                             </div>
                             <div class="mainInfo__infoTitle">SONNENBETEILIGUNG</div>
-                            <div class="mainInfo__infoContent">Löse deine Coupons gegen Paneele ein.Und erhalte monatlich 6.75 Euro an Miete pro Paneel.<br>„Deine lebenslange Stromrente!“<br> Tausche deine Coupons gegen Paneele eines bestehenden(neuen) Sonnenkraftwerks ein.<br> In Form eines Sale-leas-back Vertrages.</div>
+                            <div class="mainInfo__infoContent">Löse deine Coupons gegen Paneele ein.Und erhalte
+                                monatlich 6.75 Euro an Miete pro Paneel.<br>„Deine lebenslange Stromrente!“<br> Tausche
+                                deine Coupons gegen Paneele eines bestehenden(neuen) Sonnenkraftwerks ein.<br> In Form
+                                eines Sale-leas-back Vertrages.
+                            </div>
                             <div class="mainInfo__infoBtnWrap">
                                 <a href="#" class="mainInfo__infoLink button__yellow_50">Mehr informationen</a>
                             </div>
@@ -127,7 +179,8 @@
                     </div>
 
                     <div class="mainInfo__video">
-                        <iframe src="https://www.youtube.com/embed/NHzpM14oG0w" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/NHzpM14oG0w" frameborder="0"
+                                allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -150,7 +203,11 @@
                                 <img src="images/beta-info.png" alt="" class="mainInfo__infoImg">
                             </div>
                             <div class="mainInfo__infoTitle">AKTIVES MINING IM HOUSING</div>
-                            <div class="mainInfo__infoContent">Wir setzen hier auf Miner der neuen Generation! <br>Wichtig ist, welchen oder wie viele Algorithmen der Miner rechnen kann! Auch <br>ist ein niedriger Stromverbrauch wichtig. <br>Und natürlich der Miningertrag muss attraktiv sein!</div>
+                            <div class="mainInfo__infoContent">Wir setzen hier auf Miner der neuen Generation! <br>Wichtig
+                                ist, welchen oder wie viele Algorithmen der Miner rechnen kann! Auch <br>ist ein
+                                niedriger Stromverbrauch wichtig. <br>Und natürlich der Miningertrag muss attraktiv
+                                sein!
+                            </div>
                             <div class="mainInfo__infoBtnWrap">
                                 <a href="#" class="mainInfo__infoLink button__yellow_50">Mehr informationen</a>
                             </div>
@@ -162,7 +219,7 @@
     </div>
 </div>
 
-<div class="offers">
+<!--<div class="offers">
     <div class="container offers__container">
         <div class="row offers__row">
             <div class="col-xs-12 offers__col">
@@ -304,7 +361,138 @@
             </div>
         </div>
     </div>
+</div>-->
+<div class="checklist">
+    <div class="container checklist__container">
+        <div class="row checklist__row">
+            <div class="col-xs-12 checklist__col">
+                <div class="checklist__inner">
+                    <div class="checklist__title reviewSlider__title">Checkliste</div>
+
+                    <div class="checklist__content">
+                        <div class="checklist__sidebar">
+                            <div class="checklist__sidebarCol">
+                                <div class="checklist__cell first">Diese Fragen solltest du dir stellen, wenn du starten
+                                    möchtest!
+                                </div>
+                                <div class="checklist__cell">Abrechnung in Minutentakt?</div>
+                                <div class="checklist__cell">Bezahlung bis „unendliche“ Tiefe?</div>
+                                <div class="checklist__cell">Kein monatlicher Eigenumsatz notwendig</br> um Provisionen zu erhalten?</div>
+                                <div class="checklist__cell">Keine monatlichen Qualifikationshürden?</div>
+                                <div class="checklist__cell">Umsätze im dualen System bleiben erhalten?</div>
+                                <div class="checklist__cell">Kunden/Partnerschutz?</div>
+                                <div class="checklist__cell">Fixes Einkommen („Fixum“)?</div>
+                                <div class="checklist__cell">Sonderprämien oder Bonis?</div>
+                                <div class="checklist__cell">Einfaches Produkt?</div>
+                                <div class="checklist__cell">Offizielle Firma mit Impressum</div>
+                                <div class="checklist__cell">Rechtliche Gutachten über das System vorhanden?</div>
+                            </div>
+                        </div>
+                        <div class="checklist__data">
+
+                            <div class="checklist__dataCol">
+                                <div class="checklist__cell first"><img src="images/footer/logo-footer.png" alt="Couponis"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                            </div>
+
+                            <div class="checklist__dataCol">
+                                <div class="checklist__cell first">Klassische MLM Firmen</br>mit „Bauchladen“ wie
+                                    Kosmetik,</br>
+                                    Hundenahrung oder Aloe…
+                                </div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">---</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                            </div>
+
+                            <div class="checklist__dataCol">
+                                <div class="checklist__cell first">Online-</br>Affiliatefirmen</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">---</div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                            </div>
+
+                            <div class="checklist__dataCol">
+                                <div class="checklist__cell first">MLM-Firmen</br>mit binären</br>Abrechnungs-</br>
+                                    programmen
+                                </div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">---</div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                            </div>
+
+                            <div class="checklist__dataCol">
+                                <div class="checklist__cell first">Direktvertrieb</br>wie Tupper,</br>Vorwerk, us</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">&nbsp;</div>
+                                <div class="checklist__cell">Nein</div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell">Meist NEIN</div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                                <div class="checklist__cell"><img src="images/checked-yellow.png" alt="yes" class="checklist__checked"></div>
+                            </div>
+
+                            <div class="checklist__dataCol">
+                                <div class="checklist__cell first">Anbieter</div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                                <div class="checklist__cell"><span class="checklist__mark"></span></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
 
 <div class="challenges">
     <div class="container challenges__container">
@@ -320,135 +508,136 @@
                         <div class="challenges__tableWrap">
                             <table>
                                 <thead>
-                                    <tr>
-                                        <th>Nr.</th>
-                                        <th>Benutzername</th>
-                                        <th>Gutscheine seit dem Start</th>
-                                        <th>Points</th>
-                                        <th>Qualified</th>
-                                    </tr>
+                                <tr>
+                                    <th>Nr.</th>
+                                    <th>Benutzername</th>
+                                    <th>Gutscheine seit dem Start</th>
+                                    <th>Points</th>
+                                    <th>Qualified</th>
+                                </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Wolfe</td>
-                                        <td>8</td>
-                                        <td>17</td>
-                                        <td><span class="positive">Yes</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>Fabian-2010</td>
-                                        <td>22</td>
-                                        <td>9</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>Ferum</td>
-                                        <td>93</td>
-                                        <td>4</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>Nexus</td>
-                                        <td>11</td>
-                                        <td>4</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>5.</td>
-                                        <td>paulia84</td>
-                                        <td>10</td>
-                                        <td>2</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>6.</td>
-                                        <td>maxminer</td>
-                                        <td>15</td>
-                                        <td>2</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>7.</td>
-                                        <td>poker1</td>
-                                        <td>19</td>
-                                        <td>2</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Wolfe</td>
+                                    <td>8</td>
+                                    <td>17</td>
+                                    <td><span class="positive">Yes</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>Fabian-2010</td>
+                                    <td>22</td>
+                                    <td>9</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>Ferum</td>
+                                    <td>93</td>
+                                    <td>4</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>Nexus</td>
+                                    <td>11</td>
+                                    <td>4</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>paulia84</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>maxminer</td>
+                                    <td>15</td>
+                                    <td>2</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>poker1</td>
+                                    <td>19</td>
+                                    <td>2</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                     <div class="challenges__item">
                         <div class="challenges__title">MASTER CHALLENGE!</div>
-                        <div class="challenges__descr"><span>The monthly winner receives 1 free coupons & 1 full coupons.<br> Seccond place winner gets 1 free coupons. 100 Points for Qualifying.</span></div>
+                        <div class="challenges__descr"><span>The monthly winner receives 1 free coupons & 1 full coupons.<br> Seccond place winner gets 1 free coupons. 100 Points for Qualifying.</span>
+                        </div>
                         <div class="challenges__countdown">
                             <div id="monthly-contest-countdown" data-date="2018-11-01 08:52:22">14 days 21:07:57</div>
                         </div>
                         <div class="challenges__tableWrap">
                             <table>
                                 <thead>
-                                    <tr>
-                                        <th>Nr.</th>
-                                        <th>Benutzername</th>
-                                        <th>Gutscheine seit dem Start</th>
-                                        <th>Points</th>
-                                        <th>Qualified</th>
-                                    </tr>
+                                <tr>
+                                    <th>Nr.</th>
+                                    <th>Benutzername</th>
+                                    <th>Gutscheine seit dem Start</th>
+                                    <th>Points</th>
+                                    <th>Qualified</th>
+                                </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td>1.</td>
-                                        <td>Wolfe</td>
-                                        <td>8</td>
-                                        <td>17</td>
-                                        <td><span class="positive">Yes</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2.</td>
-                                        <td>Fabian-2010</td>
-                                        <td>22</td>
-                                        <td>9</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3.</td>
-                                        <td>Ferum</td>
-                                        <td>93</td>
-                                        <td>4</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>4.</td>
-                                        <td>Nexus</td>
-                                        <td>11</td>
-                                        <td>4</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>5.</td>
-                                        <td>paulia84</td>
-                                        <td>10</td>
-                                        <td>2</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>6.</td>
-                                        <td>maxminer</td>
-                                        <td>15</td>
-                                        <td>2</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td>7.</td>
-                                        <td>poker1</td>
-                                        <td>19</td>
-                                        <td>2</td>
-                                        <td><span class="negative">No</span></td>
-                                    </tr>
+                                <tr>
+                                    <td>1.</td>
+                                    <td>Wolfe</td>
+                                    <td>8</td>
+                                    <td>17</td>
+                                    <td><span class="positive">Yes</span></td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                    <td>Fabian-2010</td>
+                                    <td>22</td>
+                                    <td>9</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td>Ferum</td>
+                                    <td>93</td>
+                                    <td>4</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>4.</td>
+                                    <td>Nexus</td>
+                                    <td>11</td>
+                                    <td>4</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>5.</td>
+                                    <td>paulia84</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>6.</td>
+                                    <td>maxminer</td>
+                                    <td>15</td>
+                                    <td>2</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
+                                <tr>
+                                    <td>7.</td>
+                                    <td>poker1</td>
+                                    <td>19</td>
+                                    <td>2</td>
+                                    <td><span class="negative">No</span></td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>

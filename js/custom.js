@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
 				footerHeight = $('footer').outerHeight(),
 				footerBottom = $('footer').position().top + footerHeight;
 
-			if (footerBottom < docHeight) {
+			if ( footerBottom < docHeight ) {
 				$('footer').css('margin-top', (docHeight - footerBottom) + 'px');
 			}
 		}
@@ -108,6 +108,36 @@ jQuery(document).ready(function($){
 			});
 		}
 
+		function setMaxHeightChecklistItems(){
+			
+			var $elems = $('.checklist__cell:nth-child(1)');
+
+			var checklistItemsLength = $('.checklist__sidebarCol .checklist__cell').length,
+				nthsArr = new Array( checklistItemsLength );
+
+			for(var i=2; i<=nthsArr.length; i++){
+				var $elem_i = $('.checklist__cell:nth-child('+i+')');
+
+				function setMaxHeight(elem) {
+					var $elem = elem,
+						arrAllHeight = [],
+						maxHeight;
+
+					$elem.each(function(){
+						arrAllHeight.push($(this).outerHeight());
+					});
+
+					maxHeight = Math.max.apply(null, arrAllHeight);
+
+					$elem.css({
+						'height': maxHeight + 'px',
+					});
+				}
+
+				setMaxHeight($elem_i);
+			}
+		}
+
 		function setAllMaxHeight(arr){
 			for(var i=0; i<arr.length; i++){
 				var className = 'offers__offersListItem:nth-child('+(i+1)+')';
@@ -116,7 +146,12 @@ jQuery(document).ready(function($){
 			}
 		}
 
+
+
 		$(window).on('load', function () {
+			
+			setMaxHeightChecklistItems();
+
 			if ( $(window).width() > 319 ) {
 				setAllMaxHeight( nthsArr );
 				setMaxHeightSidebarItems();
@@ -124,6 +159,10 @@ jQuery(document).ready(function($){
 		});
 
 		$(window).resize(function(){
+
+			setMaxHeightChecklistItems();
+
+
 			if ( $(window).width() > 319 ) {
 				setAllMaxHeight( nthsArr );
 				setMaxHeightSidebarItems();
@@ -176,7 +215,19 @@ jQuery(document).ready(function($){
 
 
 
+	function getTabs(tabsClass, sectionsClass, classActive){
+		var $tabs = $('.' + tabsClass),
+			$sections = $('.' + sectionsClass);
 
+		$sections.not(':first').addClass('choice__posAbs');
+
+		$tabs.click(function(){
+			$tabs.removeClass(classActive).eq($(this).index()).addClass(classActive);
+			$sections.addClass('choice__posAbs').eq($(this).index()).removeClass('choice__posAbs');
+		}).eq(0).addClass(classActive);
+	}
+
+	getTabs('faq__tabItem', 'faq__tabContentItem', 'active');
 
 
 	/* ------------------------>>> Меню в хеадере(клик по гамбургеру) <<<------------------------------------------------- */

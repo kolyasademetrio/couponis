@@ -25,10 +25,10 @@
 
                         <li class="news__newsItem">
                             <div class="news__newsItemInner">
-                                <a href="" class="news__imgWrap">
+                                <a href="/?p=newssingle" class="news__imgWrap">
                                     <img src="images/news/1.jpg" alt="" class="news__img">
                                 </a>
-                                <a href="" class="news__title">Ankündigung Top Veranstaltung!</a>
+                                <a href="/?p=newssingle" class="news__title">Ankündigung Top Veranstaltung!</a>
                                 <div class="news__metaWrap">
                                     <div class="news__date">05 Sep 2018</div>
                                     <div class="news__category">Live Meetings</div>
@@ -38,17 +38,17 @@
                                     heute wieder mal bestätigt. Heute habe ich beim wohl...
                                 </div>
                                 <div class="news__btnWrap">
-                                    <a href="" class="news__readMore button__yellow_50">Read more</a>
+                                    <a href="/?p=newssingle" class="news__readMore button__yellow_50">Read more</a>
                                 </div>
                             </div>
                         </li>
 
                         <li class="news__newsItem">
                             <div class="news__newsItemInner">
-                                <a href="" class="news__imgWrap">
+                                <a href="/?p=newssingle" class="news__imgWrap">
                                     <img src="images/news/2.jpg" alt="" class="news__img">
                                 </a>
-                                <a href="" class="news__title">Gecknackt!</a>
+                                <a href="/?p=newssingle" class="news__title">Gecknackt!</a>
                                 <div class="news__metaWrap">
                                     <div class="news__date">05 Sep 2018</div>
                                     <div class="news__category">Live Meetings</div>
@@ -59,17 +59,17 @@
                                     von 5 Coupons geknackt! Wann knackt es bei Dir?-)
                                 </div>
                                 <div class="news__btnWrap">
-                                    <a href="" class="news__readMore button__yellow_50">Read more</a>
+                                    <a href="/?p=newssingle" class="news__readMore button__yellow_50">Read more</a>
                                 </div>
                             </div>
                         </li>
 
                         <li class="news__newsItem">
                             <div class="news__newsItemInner">
-                                <a href="" class="news__imgWrap">
+                                <a href="/?p=newssingle" class="news__imgWrap">
                                     <img src="images/news/3.jpg" alt="" class="news__img">
                                 </a>
-                                <a href="" class="news__title">August News</a>
+                                <a href="/?p=newssingle" class="news__title">August News</a>
                                 <div class="news__metaWrap">
                                     <div class="news__date">05 Sep 2018</div>
                                     <div class="news__category">Live Meetings</div>
@@ -79,7 +79,7 @@
                                     vollzogen.Eine Firma...
                                 </div>
                                 <div class="news__btnWrap">
-                                    <a href="" class="news__readMore button__yellow_50">Read more</a>
+                                    <a href="/?p=newssingle" class="news__readMore button__yellow_50">Read more</a>
                                 </div>
                             </div>
                         </li>
@@ -114,10 +114,10 @@
                         <div class="news__relatedTitle">Aktuelle posts</div>
                         <ul class="news__relatedList">
                             <li class="news__relatedListItem">
-                                <a href="" class="news__relatedimgWrap">
+                                <a href="/?p=newssingle" class="news__relatedimgWrap">
                                     <img src="images/news/related/1.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">Ankündigung Top Veranstaltung!</a>
+                                <a href="/?p=newssingle" class="news__relatedtitle">Ankündigung Top Veranstaltung!</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>
@@ -125,10 +125,10 @@
                             </li>
 
                             <li class="news__relatedListItem">
-                                <a href="" class="news__relatedimgWrap">
+                                <a href="/?p=newssingle" class="news__relatedimgWrap">
                                     <img src="images/news/related/2.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">Erklärung - Sonnenbeteiligung</a>
+                                <a href="/?p=newssingle" class="news__relatedtitle">Erklärung - Sonnenbeteiligung</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>
@@ -136,10 +136,10 @@
                             </li>
 
                             <li class="news__relatedListItem">
-                                <a href="" class="news__relatedimgWrap">
+                                <a href="/?p=newssingle" class="news__relatedimgWrap">
                                     <img src="images/news/related/3.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">Juli News</a>
+                                <a href="/?p=newssingle" class="news__relatedtitle">Juli News</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>
@@ -147,10 +147,10 @@
                             </li>
 
                             <li class="news__relatedListItem">
-                                <a href="" class="news__relatedimgWrap">
+                                <a href="/?p=newssingle" class="news__relatedimgWrap">
                                     <img src="images/news/related/4.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">Unser Angebot versus Mitbewerber</a>
+                                <a href="/?p=newssingle" class="news__relatedtitle">Unser Angebot versus Mitbewerber</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>
@@ -158,10 +158,10 @@
                             </li>
 
                             <li class="news__relatedListItem">
-                                <a href="" class="news__relatedimgWrap">
+                                <a href="/?p=newssingle" class="news__relatedimgWrap">
                                     <img src="images/news/related/5.jpg" alt="" class="news__relatedimg">
                                 </a>
-                                <a href="" class="news__relatedtitle">News Mai</a>
+                                <a href="/?p=newssingle" class="news__relatedtitle">News Mai</a>
                                 <div class="news__relatedmetaWrap">
                                     <div class="news__relateddate">05 Sep 2018</div>
                                     <div class="news__relatedcategory">Live Meetings</div>

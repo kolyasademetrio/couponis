@@ -63,19 +63,19 @@
                         <li class="couponing__exchangeItem">
                             <div class="couponing__exchangeItemInner">
                                 <img src="images/sun.png" alt="In Sonnenbeteiligungen">
-                                <div>In Sonnenbeteiligungen</div>
+                                <div class="couponing__exchangeItemTitle">In Sonnenbeteiligungen</div>
                             </div>
                         </li>
                         <li class="couponing__exchangeItem">
                             <div class="couponing__exchangeItemInner">
                                 <img src="images/beta.png" alt="In eigene Miner, die von uns betreut werden">
-                                <div>In eigene Miner, die von uns<br> betreut werden</div>
+                                <div class="couponing__exchangeItemTitle">In eigene Miner, die von uns<br> betreut werden</div>
                             </div>
                         </li>
                         <li class="couponing__exchangeItem">
                             <div class="couponing__exchangeItemInner">
                                 <img src="images/cart.png" alt="In unseren Shop">
-                                <div>In unseren Shop</div>
+                                <div class="couponing__exchangeItemTitle">In unseren Shop</div>
                             </div>
                         </li>
                     </ul>

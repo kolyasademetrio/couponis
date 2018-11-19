@@ -45,6 +45,10 @@ $pages = Array(
     'buycoupons'  => 'buycoupons__page',
     'couponing'  => 'couponing__page',
     'contact'  => 'contact__page',
+    'shop'  => 'shop__page',
+    'faq'  => 'faq__page',
+    'privacypolicy'  => 'privacypolicy__page',
+    'impressum'  => 'impressum__page',
 );
 ?>
 
@@ -136,7 +140,7 @@ $pages = Array(
                             <div class="col-xs-12 headerBottom__col">
                                 <div class="headerBottom__inner">
                                     <div class="headerBottom__logoWrap">
-                                        <a href="/" class="headerBottom__logoLink">
+                                        <a href="/?p=home" class="headerBottom__logoLink">
                                             <img src="images/header/logo.png" alt="" class="headerBottom__logoImg">
                                         </a>
                                     </div>
@@ -144,25 +148,25 @@ $pages = Array(
                                     <nav class="headerBottom__menuWrap" id="headerBottom__menuWrap">
                                         <ul class="headerBottom__menuList">
                                             <li class="headerBottom__menuListItem link_to_home">
-                                                <a href="" class="headerBottom__menuLink">Startseite</a>
+                                                <a href="/?p=home" class="headerBottom__menuLink">Startseite</a>
                                             </li>
                                             <li class="headerBottom__menuListItem">
-                                                <a href="" class="headerBottom__menuLink active">Sonnenbeteiligung</a>
+                                                <a href="/?p=suninvestment" class="headerBottom__menuLink active">Sonnenbeteiligung</a>
                                             </li>
                                             <li class="headerBottom__menuListItem">
-                                                <a href="" class="headerBottom__menuLink">Bitcoin mining</a>
+                                                <a href="/?p=bitcoinmining" class="headerBottom__menuLink">Bitcoin mining</a>
                                             </li>
                                             <li class="headerBottom__menuListItem">
-                                                <a href="" class="headerBottom__menuLink">Kaufe coupons</a>
+                                                <a href="/?p=shop" class="headerBottom__menuLink">Kaufe coupons</a>
                                             </li>
                                             <li class="headerBottom__menuListItem">
-                                                <a href="" class="headerBottom__menuLink">Couponing</a>
+                                                <a href="/?p=couponing" class="headerBottom__menuLink">Couponing</a>
                                             </li>
                                             <li class="headerBottom__menuListItem">
-                                                <a href="" class="headerBottom__menuLink">News</a>
+                                                <a href="/?p=news" class="headerBottom__menuLink">News</a>
                                             </li>
                                             <li class="headerBottom__menuListItem">
-                                                <a href="" class="headerBottom__menuLink">Kontakt</a>
+                                                <a href="/?p=contact" class="headerBottom__menuLink">Kontakt</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -233,11 +237,18 @@ $pages = Array(
 
             <?php
                 $siteMainClasses = 'site__main';
+                $additionalSiteClassname = '';
                 foreach ( $pages as $pageName => $siteClass ) {
                     if ( $page == $pageName ) {
-                        $siteMainClasses .= ' ' . $siteClass;
+                        $additionalSiteClassname = $siteClass;
                         break;
                     }
+                }
+
+                if ( $additionalSiteClassname != '' ) {
+                    $siteMainClasses .= ' ' . $additionalSiteClassname;
+                } else {
+                    $siteMainClasses .= ' not-found-404';
                 }
             ?>
 
@@ -249,6 +260,8 @@ $pages = Array(
                     if ( $page == $pageName ) {
                         $template = $page;
                         break;
+                    } else {
+                        $template = '404';
                     }
 
                 }
@@ -295,7 +308,7 @@ $pages = Array(
                             <div class="footerBottom__inner">
                                 <div class="footer__logoCopyWrap">
                                     <div class="footer__logoWrap">
-                                        <a href="#" class="footer__logoLink">
+                                        <a href="/?p=home" class="footer__logoLink">
                                             <img src="images/footer/logo-footer.png" alt="logo" class="footer__logoImg">
                                         </a>
                                     </div>
