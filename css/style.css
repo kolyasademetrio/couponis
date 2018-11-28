@@ -1474,6 +1474,15 @@ a:focus:active {
 	-ms-flex-preferred-size: 31.833333333%;
 	             flex-basis: 31.833333333%;
 	text-align: center;
+
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	       display: flex !important;
+
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 }
 
 .mainScreen__imgWrap {
@@ -1492,6 +1501,10 @@ a:focus:active {
 .mainScreen__img {
 	max-height: 100%;
 	max-width: 100%;
+}
+
+.mainScreen__img.star {
+	max-height: 80%;
 }
 
 .mainScreen__itemInfo {
@@ -1564,6 +1577,22 @@ a:focus:active {
 
 .mainScreen__itemListList {
 	margin-left: 5%;
+}
+
+.mainScreen__itemContent {
+	position: relative;
+	padding-bottom: 50px;
+
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.mainScreen__itemBtnWrap {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 @media ( max-width: 1199px ) {
@@ -1712,13 +1741,13 @@ a:focus:active {
 
 .slick-prev,
 .slick-prev:hover {
-	left: 0;
+	/*left: 0;*/
 	background: url(../images/slider-arrow-prev.png) no-repeat 0 0;
 }
 
 .slick-next,
 .slick-next:hover {
-	right: 0;
+	/*right: 0;*/
 	background: url(../images/slider-arrow-next.png) no-repeat 0 0;
 }
 
@@ -3028,14 +3057,51 @@ a:focus:active {
 	outline: none !important;
 }
 
-.mfp-content .log-in-dropdown input[type="text"]::-webkit-input-placeholder,
+/*.mfp-content .log-in-dropdown input[type="text"]::-webkit-input-placeholder,
 .mfp-content .log-in-dropdown input[type="password"]::-webkit-input-placeholder,
 .mfp-content .log-in-dropdown input[type="text"]::-moz-placeholder,
 .mfp-content .log-in-dropdown input[type="password"]::-moz-placeholder,
 .mfp-content .log-in-dropdown input[type="text"]:-ms-input-placeholder,
 .mfp-content .log-in-dropdown input[type="password"]:-ms-input-placeholder,
 .mfp-content .log-in-dropdown input[type="text"]:-moz-placeholder,
-.mfp-content .log-in-dropdown input[type="password"]:-moz-placeholder {
+.mfp-content .log-in-dropdown input[type="password"]:-moz-placeholder,
+.buycoupons__formWrap .form-details-group>.form-group .form-control::-webkit-input-placeholder,
+.buycoupons__formWrap .form-details-group>.form-group .form-control::-moz-placeholder,
+.buycoupons__formWrap .form-details-group>.form-group .form-control:-ms-input-placeholder,
+.buycoupons__formWrap .form-details-group>.form-group .form-control:-moz-placeholder,
+.contact__formWrap .form-details-group>.form-group .form-control::-webkit-input-placeholder,
+.contact__formWrap .form-details-group>.form-group .form-control::-moz-placeholder,
+.contact__formWrap .form-details-group>.form-group .form-control:-ms-input-placeholder,
+.contact__formWrap .form-details-group>.form-group .form-control:-moz-placeholder {
+	font-family: "OpenSansLight", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .6rem;
+	color: #020202;
+}*/
+
+input::-webkit-input-placeholder {
+	font-family: "OpenSansLight", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .6rem;
+	color: #020202;
+}
+input::-moz-placeholder {
+	font-family: "OpenSansLight", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .6rem;
+	color: #020202;
+}
+input:-ms-input-placeholder {
+	font-family: "OpenSansLight", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: .6rem;
+	color: #020202;
+}
+input:-moz-placeholder {
 	font-family: "OpenSansLight", sans-serif;
 	font-weight: normal;
 	font-style: normal;
@@ -4631,6 +4697,7 @@ a.news__title:focus:active {
 
 .buycoupons__formWrap .form-buttons-group button {
 	margin: 0 8px;
+	min-width: 244px;
 }
 
 @media ( max-width: 767px ) {
@@ -4640,6 +4707,10 @@ a.news__title:focus:active {
 	.contact__formWrap .form-details-group>.form-group .form-control {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+
+	.buycoupons__formWrap .form-buttons-group button {
+		min-width: auto;
 	}
 }
 
@@ -5573,5 +5644,90 @@ a.news__title:focus:active {
 	}
 }
 /* ---------------------------------------------------------------------------------------------------- */
-/* ----------------------------->>> impressum Page End <<<------------------------------------------------- */
+/* ----------------------------->>> impressum Page End <<<--------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> form__popup <<<---------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+.mfp-fade.mfp-bg {
+	background-color: rgba(39, 39, 39, .66);
+	opacity: 1 !important;
+}
+
+.mfp-container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.mfp-content {
+	max-width: 1330px;
+	padding: calc( 15px + 3vw ) calc( 15px + 3vw );
+	background-color: #fcfcfc;
+	border-radius: calc( 15px + 1.6137708445400754vw );
+}
+
+.mfp-content .buycoupons__title {
+	margin-bottom: calc( 15px + 2.3130715438407745vw );
+	font-size: calc( 20px + 0.5379236148466918vw );
+}
+
+.mfp-content .buycoupons__formWrap {
+	padding: 0;
+}
+
+.mfp-content .buycoupons__formWrap .form-details-group>.form-group {
+	-ms-flex-preferred-size: 49%;
+	             flex-basis: 49%;
+}
+
+.mfp-content .buycoupons__formWrap .form-details-group>.form-group.form-group-invitation-code {
+	-ms-flex-preferred-size: 100%;
+	             flex-basis: 100%;
+}
+
+button.mfp-close {
+	height: 48px !important;
+	width: 48px !important;
+	background-color: #fedb2d !important;
+	line-height: 48px !important;
+	text-align: center !important;
+	border-radius: 50% !important;
+	font-size: 30px !important;
+	color: #000 !important;
+	border: 0 none !important;
+	margin: -15px -15px 0 0 !important;
+}
+
+@media ( max-width: 1199px ) {
+	/*.mfp-content {
+		border-radius: 30px;
+	}*/
+
+}
+
+@media ( max-width: 500px ) {
+	.mfp-content .buycoupons__formWrap .form-details-group>.form-group {
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+	}
+
+	.mfp-container {
+		padding: 15px 15px 5px;
+	}
+
+	.mfp-content {
+		padding: 20px 10px 10px;
+	}
+
+	.mfp-content .buycoupons__formWrap .form-details-group>.form-group .form-control {
+		padding: 10px;
+	}
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> form__popup End <<<------------------------------------------------ */
 /* ---------------------------------------------------------------------------------------------------- */

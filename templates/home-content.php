@@ -65,11 +65,11 @@
                             </div>
                             <div class="mainScreen__item">
                                 <div class="mainScreen__imgWrap">
-                                    <img src="images/car.png" alt="" class="mainScreen__img">
-                                    <div class="mainScreen__itemInfo">Star Product</div>
+                                    <img src="images/star.png" alt="" class="mainScreen__img star">
+                                    <!--<div class="mainScreen__itemInfo">Star Product</div>-->
                                 </div>
                                 <div class="mainScreen__itemContent">
-                                    <div class="mainScreen__itemTitle">Traumauto zum mieten</div>
+                                    <div class="mainScreen__itemTitle">Star Product</div>
                                     <div class="mainScreen__itemDescr">
                                         Löse deine Coupons gegen spezielle Starprodukte ein:
                                         </br></br>

@@ -23,6 +23,11 @@ jQuery(document).ready(function($){
     function initRemoveSliders (){
         if ( $(window).width() < 992 ) {
             if ( !$('.mainScreen__items').hasClass('slick-initialized') ) {
+                $('.mainScreen__items').on('init', function(event, slick){
+                    var stHeight = $(this).find('.slick-track').height();
+                    $(this).find('.slick-slide').css('height',stHeight + 'px' );
+                });
+
                 $('.mainScreen__items').slick({
                     dots: true,
                     infinite: true,
@@ -175,7 +180,7 @@ jQuery(document).ready(function($){
     $('.hamburger').magnificPopup({
         type:'inline',
         removalDelay: 0,
-        mainClass: 'mfp-fade popup_inline popup__menu',
+        mainClass: 'mfp-fade popup_inline menu__popup',
         showCloseBtn: true,
         closeMarkup: '<div class="mfp-close-custom"><span></span><span></span><span></span></div>',
         closeBtnInside: true,
@@ -204,6 +209,11 @@ jQuery(document).ready(function($){
                     'margin-right': '',
                 });
             },
+            beforeOpen: function() {
+                var $triggerEl = $(this.st.el),
+                    newClass = 'menu__popup';
+                this.st.mainClass = this.st.mainClass + ' ' + newClass;
+            }
         }
     });
 
@@ -211,117 +221,29 @@ jQuery(document).ready(function($){
         $.magnificPopup.close();
     });
 
-/*
 
-    $('#mainTabs__datapicker__multi_1').datepicker({
-        numberOfMonths: 2,
-        autoclose: false,
-        beforeShow: function(input, inst) {
-            $('#ui-datepicker-div').addClass('mainTabs__datapicker__multi');
-        },
-        showButtonPanel: true,
-        closeText: "",
-        dateFormat: "dd M.",
+    $('.formPopupLink').magnificPopup({
+        type:'inline',
+        removalDelay: 0,
+        mainClass: 'mfp-fade popup_inline form__popup',
+        showCloseBtn: true,
+        closeBtnInside: true,
+        closeOnContentClick: false,
+        closeOnBgClick: true,
+        alignTop: false,
+        fixedContentPos: true,
+        callbacks: {
+            open: function() {
 
-        gotoCurrent: true,
+            },
+            close: function() {
 
-        ignoreReadonly: true,
-        allowInputToggle: true
-    });
+            },
+            beforeOpen: function() {
 
-
-
-    $('#mainTabs__datapicker__multi_2').datepicker({
-        numberOfMonths: 2,
-        autoclose: false,
-        beforeShow: function(input, inst) {
-            $('#ui-datepicker-div').addClass('mainTabs__datapicker__multi');
-        },
-        showButtonPanel: true,
-        closeText: "",
-        dateFormat: "dd M.",
-
-        gotoCurrent: true,
-
-        ignoreReadonly: true,
-        allowInputToggle: true
-    });
-
-    $('#mainTabs__datapicker__single').datepicker({
-        numberOfMonths: 1,
-        autoclose: false,
-        beforeShow: function(input, inst) {
-            $('#ui-datepicker-div').addClass('mainTabs__datapicker__single');
-        },
-        showButtonPanel: true,
-        closeText: "",
-        dateFormat: "dd M.",
-
-        gotoCurrent: true,
-
-        ignoreReadonly: true,
-        allowInputToggle: true
-    });
-
-    var availableTags = [
-        "ActionScript",
-        "AppleScript",
-        "Asp",
-        "BASIC",
-        "C",
-        "C++",
-        "Clojure",
-        "COBOL",
-        "ColdFusion",
-        "Erlang",
-        "Fortran",
-        "Groovy",
-        "Haskell",
-        "Java",
-        "JavaScript",
-        "Lisp",
-        "Perl",
-        "PHP",
-        "PHP",
-        "PHP",
-        "PHP",
-        "Python",
-        "Ruby",
-        "Scala",
-        "Scheme"
-    ];
-
-    $('#mainTabs__fromInput, #mainTabs__toInput').autocomplete({
-        source: availableTags,
-        open: function () {
-            $('<li class="ui-menu-item"><span></span><span>Для поиска введите необходимый город</span></li>').prependTo('ul.ui-autocomplete');
-
-            $('.ui-menu-item-wrapper').append('<span>ua</span>');
-            
-            /!*var labelText = $(this).parent('div').find('label').text();
-
-            $('<div class="ui-menu-item-label"><span>' + labelText + '</span></div>').prependTo('ul.ui-autocomplete');*!/
-        },
-        select: function(event, ui){
-            var magnificPopup = $.magnificPopup.instance;
-            magnificPopup.close();
-        },
-    });
-
-
-    var proxied = $.ui.autocomplete.prototype._renderMenu;
-    $.ui.autocomplete.prototype._renderMenu = function( ul, items ) {
-        proxied.apply( this, [ul, items] );
-        ul.addClass('dnk').width('100%');
-        
-        if (window.matchMedia('only screen and (max-width : 610px)').matches) {
-            ul.addClass('dnk_mobile');
+            }
         }
-    }
-
-    $('.user__tabs').tabs();
-
-    $('.qstn').tooltip();*/
+    });
 
 
 });

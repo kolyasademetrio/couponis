@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="652ffea8-5192-4d4c-9554-45b4f74273ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/FAQ/faq-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/header/logo-mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/impressum/impressum-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/privacypolicy/privacypolicy-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shop/tutorial-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404-content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/faq-content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/impressum-content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/privacypolicy-content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shop-content.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/couponis.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script-to-remove.php" afterPath="$PROJECT_DIR$/script-to-remove.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/couponing-content.php" afterPath="$PROJECT_DIR$/templates/couponing-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home-content.php" afterPath="$PROJECT_DIR$/templates/home-content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/news-content.php" afterPath="$PROJECT_DIR$/templates/news-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/shop-content.php" afterPath="$PROJECT_DIR$/templates/shop-content.php" />
     </list>
     <ignored path="html-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,21 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="5552" column="18" selection-start-line="5552" selection-start-column="18" selection-end-line="5552" selection-end-column="18" />
+            <state relative-caret-position="22155">
+              <caret line="1477" column="35" selection-start-line="1477" selection-start-column="35" selection-end-line="1477" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3315">
-              <caret line="221" column="30" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
+            <state relative-caret-position="903">
+              <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,6 +79,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3420">
+              <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home-content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/home-content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="67" column="82" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop-content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/shop-content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="83" selection-start-line="60" selection-start-column="83" selection-end-line="60" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -107,19 +124,19 @@
         <option value="$PROJECT_DIR$/templates/bitcoinmining-content.php" />
         <option value="$PROJECT_DIR$/templates/contact-content.php" />
         <option value="$PROJECT_DIR$/templates/buycoupons-content.php" />
-        <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/templates/newssingle-content.php" />
         <option value="$PROJECT_DIR$/templates/couponing-content.php" />
         <option value="$PROJECT_DIR$/templates/404-content.php" />
         <option value="$PROJECT_DIR$/script-to-remove.php" />
-        <option value="$PROJECT_DIR$/templates/shop-content.php" />
         <option value="$PROJECT_DIR$/templates/news-content.php" />
-        <option value="$PROJECT_DIR$/templates/home-content.php" />
-        <option value="$PROJECT_DIR$/js/custom.js" />
         <option value="$PROJECT_DIR$/templates/faq-content.php" />
         <option value="$PROJECT_DIR$/templates/privacypolicy-content.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/impressum-content.php" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/templates/home-content.php" />
+        <option value="$PROJECT_DIR$/templates/shop-content.php" />
+        <option value="$PROJECT_DIR$/js/init.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -194,38 +211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="couponis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="couponis" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="couponis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="couponis" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impressum" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,7 +291,11 @@
       <workItem from="1542288280356" duration="3685000" />
       <workItem from="1542354694668" duration="20772000" />
       <workItem from="1542613993470" duration="16370000" />
-      <workItem from="1542643623153" duration="31000" />
+      <workItem from="1542643623153" duration="112000" />
+      <workItem from="1542701464700" duration="4087000" />
+      <workItem from="1542789225035" duration="9798000" />
+      <workItem from="1542957844640" duration="26000" />
+      <workItem from="1543409602977" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="четверг">
       <created>1540475992332</created>
@@ -336,21 +325,28 @@
       <option name="project" value="LOCAL" />
       <updated>1542187596821</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="все">
+      <created>1542643687695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542643687695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251656000" />
+    <option name="totallyTimeSpent" value="265657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24048539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25151682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32708332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33645833" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -380,7 +376,8 @@
     <MESSAGE value="четверг" />
     <MESSAGE value="четверг 1" />
     <MESSAGE value="все включительно news single page" />
-    <option name="LAST_COMMIT_MESSAGE" value="все включительно news single page" />
+    <MESSAGE value="все" />
+    <option name="LAST_COMMIT_MESSAGE" value="все" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -555,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="187" column="64" selection-start-line="187" selection-start-column="64" selection-end-line="187" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/bitcoinmining-content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -592,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/clock-yellow.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -617,13 +600,6 @@
     <entry file="file://$PROJECT_DIR$/images/checked.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7260">
-          <caret line="484" column="104" selection-start-line="484" selection-start-column="104" selection-end-line="484" selection-end-column="104" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/fonts.css">
@@ -647,35 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/faq-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/privacypolicy-content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="148" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3315">
-          <caret line="221" column="30" selection-start-line="221" selection-start-column="30" selection-end-line="221" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,8 +640,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="5552" column="18" selection-start-line="5552" selection-start-column="18" selection-end-line="5552" selection-end-column="18" />
+        <state relative-caret-position="22155">
+          <caret line="1477" column="35" selection-start-line="1477" selection-start-column="35" selection-end-line="1477" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="260" column="0" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/faq-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3420">
+          <caret line="228" column="27" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="82" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shop-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="83" selection-start-line="60" selection-start-column="83" selection-end-line="60" selection-end-column="83" />
           <folding />
         </state>
       </provider>
